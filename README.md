@@ -8,7 +8,7 @@
 
 Ozzillate is a web based application that allows you to send and receive files to and from nearby devices through the help of sound waves. You only need a speaker and a microphone, which means that the software can run on most older as well as newer hardware.
 
-The project's website can be found at: https://www.ozzillate.com/
+The project's website can be found at: https://www.ozzillate.com
 
 ## Open Source?
 
