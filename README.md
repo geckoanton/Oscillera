@@ -12,6 +12,10 @@ It works by temporarily uploading the file to the server (which is removed autom
 
 The project's website can be found at: https://www.ozzillate.com
 
+## Sound Data Transfer
+
+The data over sound communication works by uniquely mapping a combination of bits (in this case in a byte) to a combination of played tones given a set to choose from. The receiver runs a fourier transform on the raw microphone output to break the sound back into its respective tones (as well as filter out background noise) and maps them back to their corresponding bits. A CRC sum makes sure that the receiver does not request a non-existent file ID caused by random interference.
+
 ## Open Source?
 
 If the project becomes open source in the future, all source code files together with build instructions will be uploaded to this repository.
