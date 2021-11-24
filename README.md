@@ -16,6 +16,8 @@ The project's website can be found at: https://www.ozzillate.com
 
 The data over sound communication works by uniquely mapping a combination of bits (in this case in a byte) to a combination of played tones given a set to choose from. The receiver runs a fourier transform on the raw microphone output to break the sound back into its respective tones (as well as filter out background noise) and maps them back to their corresponding bits. A CRC sum makes sure that the receiver does not request a non-existent file ID caused by random interference. The software is written in C++ and compiled to WebAssembly to faster run the rather computationally heavy fourier transforms.
 
+Speed of the file ID transfer is currently at 10 bytes per second (including the 16-bit CRC), or approximately one 64-bit ID per second given that the data was not corrupted.
+
 ## Open Source?
 
 If the project becomes open source in the future, all source code files together with build instructions will be uploaded to this repository.
