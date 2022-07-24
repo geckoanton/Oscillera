@@ -6,7 +6,7 @@
   </a>
 </p>
 
-STATUS (TEMPORARILY NOT RUNNING): I am currently working on a new version of Ozzillate, the website is therefore temporarily shut down. The plan is for it to be up again and running somewhere in September.
+TEMPORARILY NOT RUNNING: I am currently working on a new version of Ozzillate, the website is therefore temporarily shut down. The plan is for it to be up again and running somewhere in September 2022.
 
 Ozzillate is a web based application that allows you to send and receive files to and from nearby devices through the help of sound waves. You only need a speaker and a microphone, which means that the software can run on most older as well as newer hardware.
 
